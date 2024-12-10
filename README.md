@@ -20,46 +20,18 @@ Press 2 (Go Right):
  - Type "NO HELP" → GAME OVER.
 
 How to Play the Game 
- 1. Ensure Python 3.x is installed on your system.
- 2. Save the following code to a file named `jungle_game.py`:
-
-    python
-    print("Jungle game")
-    a = int(input("I am lost, ........ you have 2 directions. Press 1 for left or 2 for right: "))
-    if a == 1:
-        print("You are going left")
-        z = int(input("Rasta ....... press 3 for left and 4 for right: "))
-        if z == 3:
-            print("Press 3 for game over")
-        elif z == 4:
-            print("Press 4 for game over")
-    elif a == 2:
-        print("You are going right")
-        y = int(input("Raasta............. press 1 for left and 2 for right: "))
-        if y == 1:
-            print("Press 1 for falling into the well")
-        elif y == 2:
-            print("There are again two turns: left / right")
-            x = input("Raasta.............. HELP / NO HELP: ")
-            if x == "HELP":
-                print("WIN")
-            elif x == "NO HELP":
-                print("GAME OVER")
- 3. Open a terminal or command prompt.
- 4. Run the game using:
-       -bash python jungle_game.py
-
- Features 
+ - Ensure Python 3.x is installed on your system.
+Features 
   - Simple decision-based gameplay.
   - Multiple endings based on your choices.
   - Replayable to explore different paths and outcomes.
 
- Tips for Winning 
+Tips for Winning 
   - Think carefully about your choices.
   - Sometimes asking for HELP can save you from danger.
  
- Replay and Enjoy 
- Keep playing to uncover all possible paths. Have fun exploring the Jungle Game!
+Replay and Enjoy 
+Keep playing to uncover all possible paths. Have fun exploring the Jungle Game!
 
 
 
